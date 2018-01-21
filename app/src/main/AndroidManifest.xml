@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gauravsarkar.myprojapp2">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ActivityTwo"></activity>
+        <activity android:name=".ActivityThree"></activity>
+        <activity android:name=".ActivityFour"></activity>
+        <activity android:name=".ActivityIndian"></activity>
+        <activity android:name=".ActivityOrderNow"></activity>
+        <activity android:name=".ActivityMap"></activity>
+        <activity android:name=".ActivityChinese"></activity>
+        <activity android:name=".ActivityContinental"></activity>
+        <activity android:name=".ActivityDeserts"></activity>
+        <activity android:name=".ActivityRate"></activity>
+    </application>
+
+</manifest>

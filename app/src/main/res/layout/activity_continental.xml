@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nen">
+
+    <TextView
+        android:id="@+id/ew"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="23dp"
+        android:text="Continental Cuisine"
+        android:textAlignment="center"
+        android:textColor="#ff0000"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="75dp"
+        android:text="MENU:
+\n\nVeg
+\nPeppered Pasta
+\nSpaghetti With Sauce
+\nMacaroni n' Cheese
+\npaneer Steak
+\nShepher's Pie
+\n\nNon. Veg
+\nCoronation Chicken
+\nRosemary Chicken
+\nGrilled Chicken in Mustard Sauce
+\nSpanish Meatballs
+\nBarbecue Chicken
+\nBurppp Special with Tobasco Sauce"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView14"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView14"
+        android:layout_marginBottom="27dp"
+        android:text="Order Now" />"bbbbbbb
+</RelativeLayout>
