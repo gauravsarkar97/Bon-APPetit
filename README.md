@@ -9,3 +9,4 @@ This app has various features such as Google Maps, for getting directions to the
 Users can choose not to register and can still view the menu. Password validation has also been taken care of and an alert dialog box has also been added.
 
 The deatiled project report along with the system specifications and requirements and Data Flow Diagram can be found in the PDF file proj_report.pdf
+The screen shots of the App in the working stage has also been added.
